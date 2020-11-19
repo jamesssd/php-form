@@ -1,14 +1,4 @@
 <?php
-
-echo "<p> THis is PHP!</p>;
-
-
-
-
-
-
-
-
+echo "<p>This is PHP!</p>";
 ?>
-
 <p>This is HTML</p>
