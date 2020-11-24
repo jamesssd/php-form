@@ -19,9 +19,9 @@ if(isset($_GET["FirstName])){//show feedback
   <p><input type="radio" name="FavoriteColor" value="yellow" /> </p>
   
   <p>Sundae Toppings:</p>
-  <p><input type="radio" name="Toppings" value="Chocolate Syrup" /> </p>
-  <p><input type="radio" name="Toppings" value="Oreos" /> </p>
-  <p><input type="radio" name="Toppings" value="Marshmellow" /> </p>
+  <p><input type="radio" name="Toppings[]" value="Chocolate Syrup" /> </p>
+  <p><input type="radio" name="Toppings[]" value="Oreos" /> </p>
+  <p><input type="radio" name="Toppings[]" value="Marshmellow" /> </p>
   
   <input type="submit" />  
   </form>
